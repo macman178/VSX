@@ -1330,10 +1330,8 @@ bool AppInit2(boost::thread_group& threadGroup)
                 LoadSporksFromDB();
 
                 uiInterface.InitMessage(_("Loading block index..."));
-                string strBlockIndexError = "";
-                if (!LoadBlockIndex(strBlockIndexError)) {
+                if (!LoadBlockIndex()) {
                     strLoadError = _("Error loading block database");
-                    strLoadError = strprintf("%s : %s", strLoadError, strBlockIndexError);
                     break;
                 }
 
