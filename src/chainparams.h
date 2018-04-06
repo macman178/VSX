@@ -113,7 +113,6 @@ public:
     int Zerocoin_StartHeight() const { return nZerocoinStartHeight; }
     int Zerocoin_Block_EnforceSerialRange() const { return nBlockEnforceSerialRange; }
     int Zerocoin_StartTime() const { return nZerocoinStartTime; }
-    int Block_Enforce_Invalid() const { return nBlockEnforceInvalidUTXO; }
 
 protected:
     CChainParams() {}
@@ -165,10 +164,8 @@ protected:
     int nZerocoinHeaderVersion;
     int64_t nBudget_Fee_Confirmations;
     int nZerocoinStartHeight;
-    int nZerocoinStartTime;
-
     int nBlockEnforceSerialRange;
-    int nBlockEnforceInvalidUTXO;
+    int nZerocoinStartTime;
 };
 
 /**
