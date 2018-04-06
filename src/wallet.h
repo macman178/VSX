@@ -102,8 +102,7 @@ enum ZerocoinSpendStatus {
     ZVSX_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
     ZVSX_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
     ZVSX_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZVSX_SPENT_USED_ZVSX = 14,                      // Coin has already been spend
-    ZVSX_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
+    ZVSX_SPENT_USED_ZVSX = 14                       // Coin has already been spend
 };
 
 struct CompactTallyItem {
