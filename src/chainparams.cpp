@@ -110,8 +110,15 @@ public:
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 1;
 		
+<<<<<<< HEAD
         nZerocoinStartTime = 1522972842; //Friday, April 6, 2018 12:00:42 AM GMT
 		nZerocoinStartHeight = 299489;	
+=======
+        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
+		nBlockEnforceInvalidUTXO = 350000;
+        nZerocoinStartTime = 1522972800; //Thursday, April 5, 2018 8:00:00 PM GMT-04:00
+		nZerocoinStartHeight = 299282;
+>>>>>>> origin/master
 		
 		const char* pszTimestamp = "Vsync 27-08-2017";
 		
