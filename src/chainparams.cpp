@@ -46,14 +46,23 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
 	(0, uint256("0x00000a47e5f67b18cc1bd58c9e50b5295370cc36df1245a2cd07bf6bb2486e72"))
-	(299652, uint256("0x4c94fde5155ed08ca3de65e4740c84a776251677e73c776b7b1ac9a371385f01"));
-	
-	
+	(18, uint256("0x00000404d9ff3b515bc295942600aba4cab0e316a43cb3b31be03973b3e0c728"))
+	(20000, uint256("0x00000000061abc7ca69c4c23fa8be87f0c04b087338061b25cdd53fcb3b0e7e5"))
+	(50000, uint256("0x0000000008f02a5d6a8e0231cc2313e7ce35ce70daf49483eda7e3f7e7633b43"))
+	(75000, uint256("0x0000000009224cd0cc2333fdf89087ad35792508463359e0739fb0fb70ce46b5"))
+	(100000, uint256("0x000000000d494283650e556dd6fc2dd1e140f4c6f81657da9c6818068ce2cabd"))
+	(150000, uint256("0x0000000013d9e26b35cedbe7c389c19616c72dc33c7211af771a92f930c7c0de"))
+	(175000, uint256("0x000000000217324c8384189d4db7fb39268730614ffcecb1cdde6494316ac2df"))
+	(200000, uint256("0x00000000025e7ab5beaf0c52f108e098660b1a069df2f7f693755e4262ea152e"))
+	(220000, uint256("0x00000000001b5bdc9e4dd9d5f60b9c95e2f7a9eb23407f429bcb07cd35ff8073"))
+	(259400, uint256("0x197014e8824ec1c38964bc5bffb38ef3fe60e3512fdaee78c53a2b7c0650d6d5"))
+	(275000, uint256("0x8033ed91c6b98b20f68600a85555785b87cc6a065ba1c62763c54dc9528b7064"))
+	(297890, uint256("0x84f3a6e4f4f8e5ff5723cf0bf51ac9697d79440325948622eca61e7ca80de6ea"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1523016655, // * UNIX timestamp of last checkpoint block
-    434460,    // * total number of transactions between genesis and last checkpoint
+    1522769690, // * UNIX timestamp of last checkpoint block
+    374417,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2880        // * estimated number of transactions per day after checkpoint
 };
@@ -110,15 +119,8 @@ public:
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 1;
 		
-<<<<<<< HEAD
-        nZerocoinStartTime = 1522972842; //Friday, April 6, 2018 12:00:42 AM GMT
-		nZerocoinStartHeight = 299489;	
-=======
-        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-		nBlockEnforceInvalidUTXO = 350000;
-        nZerocoinStartTime = 1522972800; //Thursday, April 5, 2018 8:00:00 PM GMT-04:00
-		nZerocoinStartHeight = 299282;
->>>>>>> origin/master
+		nZerocoinStartTime = 1522972800; //Thursday, April 5, 2018 8:00:00 PM GMT-04:00
+		nZerocoinStartHeight = 299282;	
 		
 		const char* pszTimestamp = "Vsync 27-08-2017";
 		
