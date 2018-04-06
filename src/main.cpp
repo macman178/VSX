@@ -2234,7 +2234,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         ret = blockValue / 2;
     } else if (nHeight > Params().LAST_POW_BLOCK()) {
 		
-		int64_t nMasternodeCollateral = (nHeight < 320000) ? 10000 : 250000;
+		int64_t nMasternodeCollateral = (nHeight < 300000) ? 10000 : 250000;
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
         int64_t mNodeCoins = mnodeman.size() * nMasternodeCollateral * COIN;
 
