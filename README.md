@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <h2><strong>Vsync Staging Repository (Version 3.7.0.0)</strong></h2>
+=======
+<h2><strong>Vsync Staging Repository (Version 3.7.5.0 BETA)</strong></h2>
+>>>>>>> refs/remotes/origin/dev
 <p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=2133048.0</p>
 <h3><strong>Coin specs:</strong></h3>
 <p><strong><span style="color: #800080;"><em>Algo:</em></span></strong></p>
