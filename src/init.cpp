@@ -554,6 +554,14 @@ static void BlockNotifyCallback(const uint256& hashNewTip)
     boost::thread t(runCommand, strCmd); // thread runs free
 }
 
+static void MempoolNotifyCallback(const uint256& hashTransaction)
+{
+    std::string strCmd = GetArg("-mempoolnotify", "");
+
+    boost::replace_all(strCmd, "%s", hashTransaction.GetHex());
+    boost::thread t(runCommand, strCmd);
+}
+
 struct CImportingNow {
     CImportingNow()
     {
