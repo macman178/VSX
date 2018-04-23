@@ -12,7 +12,7 @@ More information at [VSYNC.pw](http://www.VSYNC.pw) Visit our ANN thread at [Bit
 <table>
 <tr><td>ALGO</td><td>XEVAN</td></tr>
 <tr><td>BLOCK TIME</td><td>60 Seconds</td></tr>
-<tr><td>Masternode Collateral</td><td>250 000 VSX</td></tr>
+<tr><td>Masternode Collateral</td><td>100 000 VSX</td></tr>
 <tr><td>POW</td><td>Ends on Block 259200</td></tr>
 <tr><td>POS</td><td>Starting from Block 259201</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
