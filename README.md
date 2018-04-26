@@ -42,7 +42,7 @@ More information at [VSYNC.pw](http://www.VSYNC.pw) Visit our ANN thread at [Bit
 <tr><td>Phase 3</td><td>345600-388799</td><td>59 VSX</td><td>30%/70% (17.7/41.3)</td><td>N/A</td></tr>
 <tr><td>Phase 4</td><td>388800-431999</td><td>51 VSX</td><td>30%/70% (15.3/35.7)</td><td>N/A</td></tr>
 <tr><td>Phase 5</td><td>432000-475199</td><td>43 VSX</td><td>30%/70% (12.9/30.1)</td><td>N/A</td></tr>
-<tr><td>Phase 6</td><td>475200-518399</td><td>35 VSX</td><td>30%/70% (15.3/24.5)</td><td>N/A</td></tr>
+<tr><td>Phase 6</td><td>475200-518399</td><td>35 VSX</td><td>30%/70% (10.5/24.5)</td><td>N/A</td></tr>
 <tr><td>Phase 7</td><td>518400-561599</td><td>27 VSX</td><td>30%/70% (8.1/18.9)</td><td>N/A</td></tr>
 <tr><td>Phase 8</td><td>561600-604799</td><td>19 VSX</td><td>30%/70% (5.7/13.3)</td><td>N/A</td></tr>
 <tr><td>Phase 9</td><td>604800-647999</td><td>11 VSX</td><td>30%/70% (3.3/7.7)</td><td>N/A</td></tr>
