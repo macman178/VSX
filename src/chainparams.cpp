@@ -57,12 +57,14 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(220000, uint256("0x00000000001b5bdc9e4dd9d5f60b9c95e2f7a9eb23407f429bcb07cd35ff8073"))
 	(259400, uint256("0x197014e8824ec1c38964bc5bffb38ef3fe60e3512fdaee78c53a2b7c0650d6d5"))
 	(275000, uint256("0x8033ed91c6b98b20f68600a85555785b87cc6a065ba1c62763c54dc9528b7064"))
-	(297890, uint256("0x84f3a6e4f4f8e5ff5723cf0bf51ac9697d79440325948622eca61e7ca80de6ea"));
+	(297890, uint256("0x84f3a6e4f4f8e5ff5723cf0bf51ac9697d79440325948622eca61e7ca80de6ea"))
+	(299282, uint256("0x2074e5ad8fb7391d074476a58eeb5d1612e218958175249cee5673810a3165d4"))
+	(299498, uint256("0x5b40c02b8be526b7d57c511b20f0b97cd0c5b6a157b484e979fb0bba47d17fd0"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1522769690, // * UNIX timestamp of last checkpoint block
-    374417,    // * total number of transactions between genesis and last checkpoint
+    1524672264, // * UNIX timestamp of last checkpoint block
+    377642,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2880        // * estimated number of transactions per day after checkpoint
 };
@@ -120,9 +122,9 @@ public:
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-		nBlockEnforceInvalidUTXO = 350000;
-        nZerocoinStartTime = 1522972800; //Thursday, April 5, 2018 8:00:00 PM GMT-04:00
-		nZerocoinStartHeight = 299282;
+	nBlockEnforceInvalidUTXO = 350000;
+        nZerocoinStartTime = 1524672000; //Wednesday, April 25, 2018 12:00:00 PM GMT-04:00
+	nZerocoinStartHeight = 299282;
 		
 		const char* pszTimestamp = "Vsync 27-08-2017";
 		

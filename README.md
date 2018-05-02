@@ -1,62 +1,50 @@
-<h2><strong>Vsync Staging Repository (Version 3.7.5.0 BETA)</strong></h2>
-<p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=2133048.0</p>
-<h3><strong>Coin specs:</strong></h3>
-<p><strong><span style="color: #800080;"><em>Algo:</em></span></strong></p>
-<ul>
-<li>Xevan</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoW Block Reward:</em></span></strong></p>
-<ul>
-<li>[block# 2-43200] 20% MN (45 VSX) / 80% MINER (180 VSX) [block# 43201-151200] 20% MN (45 VSX) / 70% MINER (157.5 VSX) / 10% Available to the budget system (22.5 VSX) [block# 151201-259200] 45% MN (36 VSX) / 45% MINER (36 VSX) / 10% Available to the budget system (8 VSX)</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoS Block Reward:</em></span></strong></p>
-<ul>
-<li>[block# 259201-Infinite] Variable based on SeeSaw Reward Mechanism</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>Block Time:</em></span></strong></p>
-<ul>
-<li>60 Seconds with Retargeting every Block</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>Max Coin Supply:</em></span></strong></p>
-<ul>
-<li>PoW Phase: 1,673,987.5</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>Max Coin Supply:</em></span></strong></p>
-<ul>
-<li>PoS Phase: Infinte</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoW Phase 1:</em></span></strong></p>
-<ul>
-<li>[block# 1] 125000000 Premine to support the swap.</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoW Phase 2:</em></span></strong></p>
-<ul>
-<li>[block#&rsquo;s 2-259200] Approx 180 Days</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoW Rewards Breakdown:</em></span></strong></p>
-<ul>
-<li>[block&rsquo;s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2-43200] 20% MN (45 VSX) &nbsp; &nbsp;/ 80% MINER (180 VSX)</li>
-<li>[block&rsquo;s &nbsp; 43201-151200] 20% MN (45 VSX) &nbsp; &nbsp;/ 70% MINER (157.5 VSX) &nbsp;/ 10% Available to the budget system (22.5 VSX)</li>
-<li>[block&rsquo;s 151201-259200] 45% MN (36 VSX) / 45% MINER (36 VSX) / 10% Available to the budget system ( &nbsp;8 VSX)</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoS Rewards Breakdown:</em></span></strong></p>
-<ul>
-<li>PoS Phase 1: [blocks 259201-302399] 75 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 2: [blocks 302400-345599] 67 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 3: [blocks 345600-388799] 59 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 4: [blocks 388800-431999] 51 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 5: [blocks 432000-475199] 43 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 6: [blocks 475200-518399] 35 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 7: [blocks 518400-561599] 27 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 8: [blocks 561600-604799] 19 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 9: [blocks 604800-647999] 11 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 3 VSX (90% distributed to staker and masternode - 10% available to budget system)</li>
-</ul>
-<br/>
-<p>&nbsp;</p>
-<p>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
-<p>&nbsp;</p>
-<p>Vsync is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.</p>
-<p>Anonymized transactions using zero-knowledge proofs, we call it <em>Zerocoin</em>.</p>
-<p>Fast transactions featuring guaranteed zero confirmation transactions, we call it <em>SwiftTX</em>.</p>
-<p>Decentralized blockchain voting providing for consensus based advancement of the current Masternode technology used to secure the network and provide the above features, each Masternode is secured with collateral of 250K VSX</p>
+VSYNC Core integration/staging repository (Verson 3.8.5.0)
+=====================================
+
+VSYNC is an open source crypto-currency focused on fast private transactions with low transaction fees & environmental footprint.  It utilizes a custom Proof of Stake protocol for securing its network. The goal of VSYNC is to achieve a decentralized sustainable crypto currency with near instant full-time private transactions, fair governance and community intelligence.
+- Anonymized transactions using the _Zerocoin Protocol_
+- Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
+- Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
+
+More information at [VSYNC.pw](http://www.VSYNC.pw) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=2133048.0)
+
+### Coin Specs
+<table>
+<tr><td>ALGO</td><td>XEVAN</td></tr>
+<tr><td>BLOCK TIME</td><td>60 Seconds</td></tr>
+<tr><td>Masternode Collateral</td><td>100 000 VSX</td></tr>
+<tr><td>POW</td><td>Ends on Block 259200</td></tr>
+<tr><td>POS</td><td>Starting from Block 259201</td></tr>
+<tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
+<tr><td>Privacy technology </td><td>Zerocoin (zVSX)</td></tr>
+<tr><td>INSTANTX</td><td>SwifTX</td></tr>
+<tr><td>RPC PORT</td><td>65015</td></tr>
+<tr><td>P2P PORT</td><td>65010</td></tr>
+</table>
+
+### Reward Distribution
+
+### PoW Rewards Breakdown
+
+<table>
+<th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
+<tr><td>2-43200</td><td>20% (45 VSX)</td><td>80% (180 VSX)</td><td>N/A</td></tr>
+<tr><td>43201-151200</td><td>20% (45 VSX)</td><td>70% (157.5 VSX)</td><td>10% Available to the budget system (22.5 VSX)</td></tr>
+<tr><td>151201-259200</td><td>45% (36 VSX)</td><td>45% (36 VSX)</td><td>10% Available to the budget system (8 VSX)</td></tr>
+</table>
+
+### PoS Rewards Breakdown
+
+<table>
+<th>Phase</th><th>Block Height</th><th>Reward</th><th>Stakers & Masternodes</th><th>Budget</th>
+<tr><td>Phase 1</td><td>259201-302399</td><td>75 VSX</td><td>30%/70% (22.5/52.5)</td><td>N/A</td></tr>
+<tr><td>Phase 2</td><td>302400-345599</td><td>67 VSX</td><td>30%/70% (20.1/46.9)</td><td>N/A</td></tr>
+<tr><td>Phase 3</td><td>345600-388799</td><td>59 VSX</td><td>30%/70% (17.7/41.3)</td><td>N/A</td></tr>
+<tr><td>Phase 4</td><td>388800-431999</td><td>51 VSX</td><td>30%/70% (15.3/35.7)</td><td>N/A</td></tr>
+<tr><td>Phase 5</td><td>432000-475199</td><td>43 VSX</td><td>30%/70% (12.9/30.1)</td><td>N/A</td></tr>
+<tr><td>Phase 6</td><td>475200-518399</td><td>35 VSX</td><td>30%/70% (10.5/24.5)</td><td>N/A</td></tr>
+<tr><td>Phase 7</td><td>518400-561599</td><td>27 VSX</td><td>30%/70% (8.1/18.9)</td><td>N/A</td></tr>
+<tr><td>Phase 8</td><td>561600-604799</td><td>19 VSX</td><td>30%/70% (5.7/13.3)</td><td>N/A</td></tr>
+<tr><td>Phase 9</td><td>604800-647999</td><td>11 VSX</td><td>30%/70% (3.3/7.7)</td><td>N/A</td></tr>
+<tr><td>Phase X</td><td>648000-Infinite</td><td>3 VSX</td><td>30%/70% (0.9/2.1)</td><td>N/A</td></tr>
+</table>

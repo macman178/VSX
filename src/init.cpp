@@ -554,6 +554,14 @@ static void BlockNotifyCallback(const uint256& hashNewTip)
     boost::thread t(runCommand, strCmd); // thread runs free
 }
 
+static void MempoolNotifyCallback(const uint256& hashTransaction)
+{
+    std::string strCmd = GetArg("-mempoolnotify", "");
+
+    boost::replace_all(strCmd, "%s", hashTransaction.GetHex());
+    boost::thread t(runCommand, strCmd);
+}
+
 struct CImportingNow {
     CImportingNow()
     {
@@ -1618,7 +1626,10 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     if (mapArgs.count("-blocknotify"))
         uiInterface.NotifyBlockTip.connect(BlockNotifyCallback);
-
+    
+    if (mapArgs.count("-mempoolnotify"))
+        uiInterface.NotifyTransaction.connect(MempoolNotifyCallback);
+	
     // scan for better chains in the block chain database, that are not yet connected in the active best chain
     CValidationState state;
     if (!ActivateBestChain(state))
